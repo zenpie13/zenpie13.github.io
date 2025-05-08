@@ -6,7 +6,7 @@ import CloudsBackground from './CloudsBackground'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'i love ronaldo',
+  title: 'Your Name - Portfolio',
   description: 'Personal portfolio website showcasing my projects and skills',
 }
 

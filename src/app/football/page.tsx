@@ -38,34 +38,34 @@ export default function Football() {
       </div>
 
       {/* Side Navigation */}
-      <nav className="fixed top-0 left-0 h-full w-16 md:w-20 bg-black/50 backdrop-blur-sm border-r border-white/10 z-50">
-        <div className="flex flex-col items-center py-4 md:py-8 space-y-6 md:space-y-8">
-          <div className="flex flex-col items-center space-y-6 md:space-y-8 mt-4 md:mt-8">
+      <nav className="fixed top-0 left-0 h-full w-20 bg-black/50 backdrop-blur-sm border-r border-white/10 z-50">
+        <div className="flex flex-col items-center py-8 space-y-8">
+          <div className="flex flex-col items-center space-y-8 mt-8">
             <a href="/" className="text-gray-400 hover:text-white transition-colors">
-              <span className="text-xl md:text-2xl">🏠</span>
+              <span className="text-2xl">🏠</span>
             </a>
             <a href="/aviation" className="text-gray-400 hover:text-white transition-colors">
-              <span className="text-xl md:text-2xl">✈️</span>
+              <span className="text-2xl">✈️</span>
             </a>
             <a href="/coding" className="text-gray-400 hover:text-white transition-colors">
-              <span className="text-xl md:text-2xl">💻</span>
+              <span className="text-2xl">💻</span>
             </a>
             <a href="/football" className="text-white hover:text-gray-300 transition-colors">
-              <span className="text-xl md:text-2xl">⚽</span>
+              <span className="text-2xl">⚽</span>
             </a>
           </div>
         </div>
       </nav>
 
       {/* Main Content */}
-      <div className="min-h-screen pl-16 md:pl-20">
+      <div className="pl-20 relative z-10 pb-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center mb-16 pt-40"
+            className="text-center mb-16 pt-32"
           >
             <h1 className={`${poppins.className} text-4xl sm:text-5xl font-bold text-white mb-4 tracking-tight`}>
               Football Analytics Hub

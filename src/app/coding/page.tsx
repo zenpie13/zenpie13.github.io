@@ -34,34 +34,34 @@ export default function Coding() {
       <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/10 via-transparent to-transparent" />
 
       {/* Side Navigation */}
-      <nav className="fixed top-0 left-0 h-full w-16 md:w-20 bg-black/50 backdrop-blur-sm border-r border-white/10 z-50">
-        <div className="flex flex-col items-center py-4 md:py-8 space-y-6 md:space-y-8">
-          <div className="flex flex-col items-center space-y-6 md:space-y-8 mt-4 md:mt-8">
+      <nav className="fixed top-0 left-0 h-full w-20 bg-black/50 backdrop-blur-sm border-r border-white/10 z-50">
+        <div className="flex flex-col items-center py-8 space-y-8">
+          <div className="flex flex-col items-center space-y-8 mt-8">
             <a href="/" className="text-gray-400 hover:text-white transition-colors">
-              <span className="text-xl md:text-2xl">🏠</span>
+              <span className="text-2xl">🏠</span>
             </a>
             <a href="/aviation" className="text-gray-400 hover:text-white transition-colors">
-              <span className="text-xl md:text-2xl">✈️</span>
+              <span className="text-2xl">✈️</span>
             </a>
             <a href="/coding" className="text-white hover:text-gray-300 transition-colors">
-              <span className="text-xl md:text-2xl">💻</span>
+              <span className="text-2xl">💻</span>
             </a>
             <a href="/football" className="text-gray-400 hover:text-white transition-colors">
-              <span className="text-xl md:text-2xl">⚽</span>
+              <span className="text-2xl">⚽</span>
             </a>
           </div>
         </div>
       </nav>
 
       {/* Main Content */}
-      <div className="min-h-screen pl-16 md:pl-20">
+      <div className="pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Terminal Header */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="mb-8 mt-24"
+            className="mb-8"
           >
             <div className="bg-black/50 backdrop-blur-sm border border-emerald-500/30 rounded-lg p-4">
               <div className="flex items-center space-x-2 mb-2">
@@ -84,7 +84,7 @@ export default function Coding() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
               whileHover={{ scale: 1.02 }}
-              className="bg-black/50 backdrop-blur-sm border border-emerald-500/30 rounded-lg p-6 hover:border-emerald-400/50 transition-all duration-200"
+              className="bg-black/50 backdrop-blur-sm border border-emerald-500/30 rounded-lg p-6 hover:border-emerald-400/50 transition-all"
             >
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-emerald-500/20 rounded-lg flex items-center justify-center mr-4">
@@ -108,7 +108,7 @@ export default function Coding() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
               whileHover={{ scale: 1.02 }}
-              className="bg-black/50 backdrop-blur-sm border border-emerald-500/30 rounded-lg p-6 hover:border-emerald-400/50 transition-all duration-200"
+              className="bg-black/50 backdrop-blur-sm border border-emerald-500/30 rounded-lg p-6 hover:border-emerald-400/50 transition-all"
             >
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-emerald-500/20 rounded-lg flex items-center justify-center mr-4">
@@ -132,7 +132,7 @@ export default function Coding() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
               whileHover={{ scale: 1.02 }}
-              className="bg-black/50 backdrop-blur-sm border border-emerald-500/30 rounded-lg p-6 hover:border-emerald-400/50 transition-all duration-200"
+              className="bg-black/50 backdrop-blur-sm border border-emerald-500/30 rounded-lg p-6 hover:border-emerald-400/50 transition-all"
             >
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-emerald-500/20 rounded-lg flex items-center justify-center mr-4">

@@ -12,34 +12,34 @@ export default function Home() {
       </div>
 
       {/* Side Navigation */}
-      <nav className="fixed top-0 left-0 h-full w-16 md:w-20 bg-black/50 backdrop-blur-sm border-r border-white/10 z-50">
-        <div className="flex flex-col items-center py-4 md:py-8 space-y-6 md:space-y-8">
-          <div className="flex flex-col items-center space-y-6 md:space-y-8 mt-4 md:mt-8">
+      <nav className="fixed top-0 left-0 h-full w-20 bg-black/50 backdrop-blur-sm border-r border-white/10 z-50">
+        <div className="flex flex-col items-center py-8 space-y-8">
+          <div className="flex flex-col items-center space-y-8 mt-8">
             <a href="/" className="text-white hover:text-gray-300 transition-colors">
-              <span className="text-xl md:text-2xl">🏠</span>
+              <span className="text-2xl">🏠</span>
             </a>
             <a href="/aviation" className="text-gray-400 hover:text-white transition-colors">
-              <span className="text-xl md:text-2xl">✈️</span>
+              <span className="text-2xl">✈️</span>
             </a>
             <a href="/coding" className="text-gray-400 hover:text-white transition-colors">
-              <span className="text-xl md:text-2xl">💻</span>
+              <span className="text-2xl">💻</span>
             </a>
             <a href="/football" className="text-gray-400 hover:text-white transition-colors">
-              <span className="text-xl md:text-2xl">⚽</span>
+              <span className="text-2xl">⚽</span>
             </a>
           </div>
         </div>
       </nav>
 
       {/* Main Content */}
-      <div className="min-h-screen pl-16 md:pl-20">
+      <div className="pl-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center pt-40 pb-16"
+            className="text-center pt-32 pb-16"
           >
             <h1 className="text-6xl sm:text-7xl font-bold mb-8">
               <span className="bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
@@ -47,12 +47,12 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-gray-300 text-lg leading-relaxed mb-12">
-              Website Work In Progress
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
             <div className="text-gray-500 text-sm">
-              <p>Email: samarthtilekar1@gmail.com</p>
-              <p>Location: Pune</p>
-              <p>Social: @tillu.samarth</p>
+              <p>Email: your.email@example.com</p>
+              <p>Location: Your Location</p>
+              <p>Social: @yourhandle</p>
             </div>
           </motion.div>
         </div>
