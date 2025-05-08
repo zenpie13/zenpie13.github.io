@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/zenpie13/zenpie13.github.io.git
+	tagOpt = --no-tags
+	fetch = +refs/*:refs/*
+	mirror = true
